@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
 import androidx.navigation.ui.setupWithNavController
 import com.example.shop.R
+import com.example.shop.screens.drawer.ContactFragment
 import com.example.shop.screens.drawer.HomeFragment
 import com.example.shop.screens.drawer.MessageFragment
 import com.example.shop.screens.drawer.SettingsFragment
@@ -47,6 +48,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.nav_home -> replaceFragment(HomeFragment(), it.title.toString())
                 R.id.nav_message -> replaceFragment(MessageFragment(), it.title.toString())
                 R.id.nav_settings -> replaceFragment(SettingsFragment(), it.title.toString())
+                R.id.nav_contact -> replaceFragment(ContactFragment(), it.title.toString())
 
             }
             true

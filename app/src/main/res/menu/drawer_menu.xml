@@ -19,4 +19,9 @@
         android:icon="@drawable/ic_settings_24"
         android:title="Settings"/>
 
+    <item
+        android:id="@+id/nav_contact"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:title="Contact"/>
+
 </menu>
